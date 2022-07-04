@@ -61,7 +61,7 @@ public class HemoDemo extends ApplicationFrame {
 
         // OverLimit Range
         XYIntervalSeries serie2 = new XYIntervalSeries("OVERLIMIT");
-        serie2.add(0, 0 - 0.2, 0 + 0.2, 125L, 125, 900);
+        serie2.add(catRange, catRange - 0.2, catRange + 0.2, 125L, 125, 900);
         dataset.addSeries(serie2);
 
         // Measured
